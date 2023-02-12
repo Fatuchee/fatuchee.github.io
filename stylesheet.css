@@ -75,7 +75,6 @@ html {
     text-align: center;
     height: fit-content;
     display: inline-block;
-    transform-style: preserve-3d;
     z-index: 2;
 }
 
@@ -101,6 +100,8 @@ html {
     z-index: -1;
     display: none;
     top: 130px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #emblemTag:hover ~ div {
@@ -112,11 +113,32 @@ html {
 }
 
 #emblemTag:hover ~ #menuBar {
-    display: block;
+    display: flex;
 }
 
 #menuBar:hover {
-    display: block;
+    display: flex;
+}
+
+.menuButton {
+    font-style: 'Courier New', Courier, monospace;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    user-select: none;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#current {
+    background-color: var(--sammyPurple);
+}
+
+.menuButton:hover {
+    background-color: var(--sammEar);
 }
 
 #fixedContainer {
@@ -140,4 +162,8 @@ html {
     transform: skew(30deg, -20deg);
     left: -100px;
     top: -200px;
+}
+
+#head {
+    display: block;
 }
