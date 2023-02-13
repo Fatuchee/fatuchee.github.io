@@ -167,3 +167,65 @@ html {
 #head {
     display: block;
 }
+
+.text-area {
+    position: absolute;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: var(--sammPink);
+    color: var(--sammyPurple);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin: 30px 70px 30px 70px;
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--sammyPink);
+    opacity: 70%;
+    border-radius: 100px/50px;
+    line-height: 30px;
+    padding: 5px;
+}
+
+#about-me {
+    top: 270px;
+    text-align: left;
+}
+
+#about-me h2 {
+    text-align: center;
+}
+
+#about-me ul {
+    opacity: 100%;
+    list-style-type:none;
+    max-width: 36vw;
+}
+
+#about-sammy {
+    right: 100px;
+    top: 380px;
+    text-align: left;
+}
+
+#about-sammy h2 {
+    text-align: center;
+}
+
+#about-sammy ul {
+    opacity: 100%;
+    list-style-type:none;
+    max-width: 36vw;
+}
+
+.picture {
+    position: relative;
+    z-index: -1;
+    border-radius: 10%/7%;
+}
+
+#ref {
+    right: -40px;
+    top: 200px;
+    transform: scale(38%);
+}
