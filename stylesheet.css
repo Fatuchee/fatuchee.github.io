@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 :root{
     --scandal :#b8dad9;
     --oasis: #fcf1c0;
@@ -206,6 +208,7 @@ html {
     right: 100px;
     top: 380px;
     text-align: left;
+    width: 25vw;
 }
 
 #about-sammy h2 {
@@ -218,6 +221,23 @@ html {
     max-width: 36vw;
 }
 
+#my-projects {
+    text-align: left;
+    padding: 15px;
+    bottom: -180px;
+    left: 80px;
+}
+
+#my-projects ul {
+    opacity: 100%;
+    list-style: none;
+    max-width: 36vw;
+}
+
+#my-projects h2 {
+    text-align: center;
+}
+
 .picture {
     position: relative;
     z-index: -1;
@@ -228,4 +248,115 @@ html {
     right: -40px;
     top: 200px;
     transform: scale(38%);
+}
+
+.title {
+    position: absolute;
+    top: 250px;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#info {
+    max-width: 70vw;
+    margin: 0;
+    left: 15vw;
+    top: 375px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    max-height: 600px;
+    position: relative;
+    margin: auto;
+    top: 400px;
+}
+
+.mySlides {
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot-container {
+    position: relative;
+    text-align: center;
+    bottom: -10px;
+}
+
+.active, .dot:hover {
+    background: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+.img {
+    max-height: 600px;
+    max-width: 100%;
+    border-radius: 10%;
 }

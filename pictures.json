@@ -1,0 +1,26 @@
+{
+    "picture" : [{
+        "type" : "com",
+        "name" : "fatu_snowball",
+        "artist" : "Hoku",
+        "fileType" : "png"
+    },
+    {
+        "type" : "com",
+        "name" : "FatuThumbsUp",
+        "artist" : "Luna",
+        "fileType" : "png"
+    },
+    {
+        "type" : "com",
+        "name" : "SammSamm",
+        "artist" : "Hoku",
+        "fileType" : "jpg"
+    },
+    {
+        "type" : "com",
+        "name" : "sammy",
+        "artist" : "?",
+        "fileType" : "png"
+    }]
+}
