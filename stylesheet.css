@@ -270,12 +270,12 @@ html {
     max-width: 1000px;
     max-height: 600px;
     position: relative;
-    right: -20vw;
     margin: auto;
-    top: 370px;
+    top: 320px;
 }
 
-.mySlides {
+
+.mySlides-com, .mySlides-own{
     display: none;
     max-width: 100%;
     max-height: 100%;
@@ -296,6 +296,7 @@ html {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .next {
@@ -329,7 +330,7 @@ html {
     border-radius: 0% 0% 20px 20px;
 }
 
-.dot {
+.dot-com, .dot-own {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -346,7 +347,7 @@ html {
     bottom: -10px;
 }
 
-.active, .dot:hover {
+.active, .dot-own:hover, .dot-com:hover {
     background: #717171;
 }
 
@@ -366,8 +367,27 @@ html {
     border-radius: 10%;
 }
 
-#comms-text {
+#com {
+    left: 375px;
+}
+
+#com-text {
+    min-width: 30vw;
+    min-height: 300px;
     max-width: 30vw;
     left: 100px;
     top: 450px;
+}
+
+#own {
+    right: 375px;
+    margin-top: 170px;
+}
+
+#own-text {
+    margin-top: -150px;
+    min-width: 30vw;
+    min-height: 300px;
+    max-width: 30vw;
+    right: 100px;
 }

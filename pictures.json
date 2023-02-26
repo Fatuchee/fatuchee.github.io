@@ -22,5 +22,23 @@
         "name" : "sammy",
         "artist" : "?",
         "fileType" : "png"
+    },
+    {
+        "type" : "own",
+        "name" : "Drakal",
+        "artist" : "Me",
+        "fileType" :"png"
+    },
+    {
+        "type" : "own",
+        "name" : "Mikal",
+        "artist" : "Me",
+        "fileType" :"png"
+    },
+    {
+        "type" : "own",
+        "name" : "NameGeschenk",
+        "artist" : "Me",
+        "fileType" :"png"
     }]
 }
